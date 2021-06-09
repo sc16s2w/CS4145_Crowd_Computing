@@ -1,0 +1,203 @@
+{
+  "view": {
+    "type": "view.list",
+    "size": "s",
+    "items": [
+      {
+        "type": "field.image-annotation",
+        "image": {
+          "type": "data.input",
+          "path": "annotation"
+        },
+        "data": {
+          "type": "data.output",
+          "path": "result"
+        },
+        "shapes": {
+          "rectangle": true
+        },
+        "validation": {
+          "type": "condition.required"
+        },
+        "fullHeight": false,
+        "labels": [
+          {
+            "label": "Entity #1",
+            "value": "1"
+          },
+          {
+            "label": "Entity #2",
+            "value": "2"
+          },
+          {
+            "label": "Entity #3",
+            "value": "3"
+          },
+          {
+            "label": "Entity #4",
+            "value": "4"
+          },
+          {
+            "label": "Entity #5",
+            "value": "5"
+          },
+          {
+            "label": "Entity #6",
+            "value": "6"
+          },
+          {
+            "label": "Entity #7",
+            "value": "7"
+          },
+          {
+            "label": "Entity #8",
+            "value": "8"
+          }
+        ]
+      },
+      {
+        "type": "view.list",
+        "items": [
+          {
+            "type": "view.image",
+            "url": {
+              "type": "data.input",
+              "path": "original"
+            },
+            "fullHeight": false,
+            "popup": true,
+            "maxWidth": 500
+          },
+          {
+            "type": "field.text",
+            "label": "Entity #1",
+            "data": {
+              "type": "data.output",
+              "path": "entity1"
+            }
+          },
+          {
+            "type": "field.text",
+            "label": "Attribute #1",
+            "data": {
+              "type": "data.output",
+              "path": "attribute1"
+            }
+          },
+          {
+            "type": "field.text",
+            "label": "Entity #2",
+            "data": {
+              "type": "data.output",
+              "path": "entity2"
+            }
+          },
+          {
+            "type": "field.text",
+            "label": "Attribute #2",
+            "data": {
+              "type": "data.output",
+              "path": "attribute2"
+            }
+          },
+          {
+            "type": "field.text",
+            "label": "Entity #3",
+            "data": {
+              "type": "data.output",
+              "path": "entity3"
+            }
+          },
+          {
+            "type": "field.text",
+            "label": "Attribute #3",
+            "data": {
+              "type": "data.output",
+              "path": "attribute3"
+            }
+          },
+          {
+            "type": "field.text",
+            "label": "Entity #4",
+            "data": {
+              "type": "data.output",
+              "path": "entity4"
+            }
+          },
+          {
+            "type": "field.text",
+            "label": "Attribute #4",
+            "data": {
+              "type": "data.output",
+              "path": "attribute4"
+            }
+          },
+          {
+            "type": "field.text",
+            "label": "Entity #5",
+            "data": {
+              "type": "data.output",
+              "path": "entity5"
+            }
+          },
+          {
+            "type": "field.text",
+            "label": "Attribute #5",
+            "data": {
+              "type": "data.output",
+              "path": "attribute5"
+            }
+          },
+          {
+            "type": "field.text",
+            "label": "Entity #6",
+            "data": {
+              "type": "data.output",
+              "path": "entity6"
+            }
+          },
+          {
+            "type": "field.text",
+            "label": "Attribute #6",
+            "data": {
+              "type": "data.output",
+              "path": "attribute6"
+            }
+          },
+          {
+            "type": "field.text",
+            "label": "Entity #7",
+            "data": {
+              "type": "data.output",
+              "path": "entity7"
+            }
+          },
+          {
+            "type": "field.text",
+            "label": "Attribute #7",
+            "data": {
+              "type": "data.output",
+              "path": "attribute7"
+            }
+          },
+          {
+            "type": "field.text",
+            "label": "Entity #8",
+            "data": {
+              "type": "data.output",
+              "path": "entity8"
+            }
+          },
+          {
+            "type": "field.text",
+            "label": "Attribute #8",
+            "data": {
+              "type": "data.output",
+              "path": "attribute8"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

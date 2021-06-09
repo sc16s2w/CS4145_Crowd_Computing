@@ -1,0 +1,84 @@
+.task-suite{
+    overflow-x: hidden;
+    /* padding: 5px 220px 10px; */
+}
+.field__hotkey{
+    width: 0px;
+    margin: -6px;
+}
+.color-red{
+    margin: -5px;
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: red;
+}
+.color-orange{
+    margin: -5px;
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: orange;
+}
+.color-yellow{
+    margin: -5px;
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: yellow;
+}
+.color-green{
+    margin: -5px;
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: green;
+}
+.color-blue{
+    margin: -5px;
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: blue;
+}
+.color-purple{
+    margin: -5px;
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: purple;
+}
+.color-black{
+    margin: -5px;
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: black;
+}
+.color-white{
+    margin: -5px;
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: white;
+}
+.color-gray{
+    margin: -5px;
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: gray;
+}
+/* disable rectangle-editor controls */
+.image-annotation-editor__shape-polygon {
+  display: none;
+}

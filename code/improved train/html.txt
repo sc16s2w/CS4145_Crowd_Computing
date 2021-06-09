@@ -1,0 +1,260 @@
+
+<table id="q1" border="1xp" border-style="solid" cellspacing="0">
+	<tr>
+		<th width="600">
+            <div style="position:relative;">
+				<div style="position:relative;">
+					<span>
+						Original image
+					</span>
+					{{img src=original width="500px" height="400px"}}
+				</div>
+			</div>
+		</th>
+		<th width="600">
+			<div style="position:relative;">
+				<span>
+					This is an legends of the names of various body parts of a bird. Please notate the feature of the corresponding parts in the left bird's picture according to this this legends.
+				</span>
+				<img src="https://raw.githubusercontent.com/sc16s2w/CS4145_Crowd_Computing/main/crowd.jpg"  width="600"/>
+			</div>
+		</th>
+	</tr>
+	
+	<tr>
+		<td>
+			<div style="width:600px;overflow:fixed;background:#FFFFFF;">
+				{{field type="image-annotation" name="result1" value="1" src=annotation  width="200 px" height="200 px"}}
+			</div>
+		</td>
+		<td>
+			<div style="width:600px;height:500px;overflow:auto;background:#FFFFFF;padding-left:20px">
+					<div id="new" style="position:relative;">
+						<div class="text"><h4>Entity1:</h4>
+							{{field type="suggest" name="entity_suggest1" source=features allowCustomInput=false}}
+							<div>
+								{{field type="textarea" class="annotation" name="entity_text1" width="212px" rows=1 placeholder="Enter the text"}}
+							</div>
+						</div>
+						<div class="text"><h4>Attribute1:</h4>
+							<div>
+								<div class="color-red"></div>{{field type="radio" name="color1" value="RED" label="Red" hotkey="1"}}
+								<div class="color-orange"></div>{{field type="radio" name="color1" value="ORANGE" label="Orange" hotkey="1"}}
+								<div class="color-yellow"></div>{{field type="radio" name="color1" value="YELLOW" label="Yellow" hotkey="1"}}
+								<div class="color-green"></div>{{field type="radio" name="color1" value="GREEN" label="Green" hotkey="1"}}
+								<div class="color-blue"></div>{{field type="radio" name="color1" value="BLUE" label="Blue" hotkey="1"}}
+							</div>
+							<div>
+								<div class="color-purple"></div>{{field type="radio" name="color1" value="PURPLE" label="Purple" hotkey="1"}}
+								<div class="color-black"></div>{{field type="radio" name="color1" value="BLACK" label="Black" hotkey="1"}}
+								<div class="color-white"></div>{{field type="radio" name="color1" value="WHITE" label="White" hotkey="1"}}
+								<div class="color-gray"></div>{{field type="radio" name="color1" value="GRAY" label="Gray" hotkey="1"}}
+							</div>
+						</div>
+						<!-- Text input field -->
+						<div class="text">
+							<h4>More description:</h4>
+							{{field type="textarea" class="annotation" name="user_text1" width="100%" resize="vertical" rows=5 placeholder="Enter the text"}}
+						</div>
+					</div>
+					<div id="new" style="position:relative;">
+						<div class="text"><h4>Entity2:</h4>
+							{{field type="suggest" name="entity_suggest2" source=features allowCustomInput=false}}
+							<div>
+								{{field type="textarea" class="annotation" name="entity_text2" width="212px" rows=1 placeholder="Enter the text"}}
+							</div>
+						</div>
+						<div class="text"><h4>Attribute2:</h4>
+							<div>
+								<div class="color-red"></div>{{field type="radio" name="color2" value="RED" label="Red" hotkey="1"}}
+								<div class="color-orange"></div>{{field type="radio" name="color2" value="ORANGE" label="Orange" hotkey="1"}}
+								<div class="color-yellow"></div>{{field type="radio" name="color2" value="YELLOW" label="Yellow" hotkey="1"}}
+								<div class="color-green"></div>{{field type="radio" name="color2" value="GREEN" label="Green" hotkey="1"}}
+								<div class="color-blue"></div>{{field type="radio" name="color2" value="BLUE" label="Blue" hotkey="1"}}
+							</div>
+							<div>
+								<div class="color-purple"></div>{{field type="radio" name="color2" value="PURPLE" label="Purple" hotkey="1"}}
+								<div class="color-black"></div>{{field type="radio" name="color2" value="BLACK" label="Black" hotkey="1"}}
+								<div class="color-white"></div>{{field type="radio" name="color2" value="WHITE" label="White" hotkey="1"}}
+								<div class="color-gray"></div>{{field type="radio" name="color2" value="GRAY" label="Gray" hotkey="1"}}
+							</div>
+						</div>
+						<!-- Text input field -->
+						<div class="text">
+							<h4>More description:</h4>
+							{{field type="textarea" class="annotation" name="user_text2" width="100%" resize="vertical" rows=5 placeholder="Enter the text"}}
+						</div>
+					</div>
+					<div id="new" style="position:relative;">
+						<div class="text"><h4>Entity3:</h4>
+							{{field type="suggest" name="entity_suggest3" source=features allowCustomInput=false}}
+							<div>
+								{{field type="textarea" class="annotation" name="entity_text3" width="212px" rows=1 placeholder="Enter the text"}}
+							</div>
+						</div>
+						<div class="text"><h4>Attribute3:</h4>
+							<div>
+								<div class="color-red"></div>{{field type="radio" name="color3" value="RED" label="Red" hotkey="1"}}
+								<div class="color-orange"></div>{{field type="radio" name="color3" value="ORANGE" label="Orange" hotkey="1"}}
+								<div class="color-yellow"></div>{{field type="radio" name="color3" value="YELLOW" label="Yellow" hotkey="1"}}
+								<div class="color-green"></div>{{field type="radio" name="color3" value="GREEN" label="Green" hotkey="1"}}
+								<div class="color-blue"></div>{{field type="radio" name="color3" value="BLUE" label="Blue" hotkey="1"}}
+							</div>
+							<div>
+								<div class="color-purple"></div>{{field type="radio" name="color3" value="PURPLE" label="Purple" hotkey="1"}}
+								<div class="color-black"></div>{{field type="radio" name="color3" value="BLACK" label="Black" hotkey="1"}}
+								<div class="color-white"></div>{{field type="radio" name="color3" value="WHITE" label="White" hotkey="1"}}
+								<div class="color-gray"></div>{{field type="radio" name="color3" value="GRAY" label="Gray" hotkey="1"}}
+							</div>
+						</div>
+						<!-- Text input field -->
+						<div class="text">
+							<h4>More description:</h4>
+							{{field type="textarea" class="annotation" name="user_text3" width="100%" resize="vertical" rows=5 placeholder="Enter the text"}}
+						</div>
+					</div>
+					<div id="new" style="position:relative;">
+						<div class="text"><h4>Entity4:</h4>
+							{{field type="suggest" name="entity_suggest4" source=features allowCustomInput=false}}
+							<div>
+								{{field type="textarea" class="annotation" name="entity_text4" width="212px" rows=1 placeholder="Enter the text"}}
+							</div>
+						</div>
+						<div class="text"><h4>Attribute4:</h4>
+							<div>
+								<div class="color-red"></div>{{field type="radio" name="color4" value="RED" label="Red" hotkey="1"}}
+								<div class="color-orange"></div>{{field type="radio" name="color4" value="ORANGE" label="Orange" hotkey="1"}}
+								<div class="color-yellow"></div>{{field type="radio" name="color4" value="YELLOW" label="Yellow" hotkey="1"}}
+								<div class="color-green"></div>{{field type="radio" name="color4" value="GREEN" label="Green" hotkey="1"}}
+								<div class="color-blue"></div>{{field type="radio" name="color4" value="BLUE" label="Blue" hotkey="1"}}
+							</div>
+							<div>
+								<div class="color-purple"></div>{{field type="radio" name="color4" value="PURPLE" label="Purple" hotkey="1"}}
+								<div class="color-black"></div>{{field type="radio" name="color4" value="BLACK" label="Black" hotkey="1"}}
+								<div class="color-white"></div>{{field type="radio" name="color4" value="WHITE" label="White" hotkey="1"}}
+								<div class="color-gray"></div>{{field type="radio" name="color4" value="GRAY" label="Gray" hotkey="1"}}
+							</div>
+						</div>
+						<!-- Text input field -->
+						<div class="text">
+							<h4>More description:</h4>
+							{{field type="textarea" class="annotation" name="user_text4" width="100%" resize="vertical" rows=5 placeholder="Enter the text"}}
+						</div>
+					</div>
+					<div id="new" style="position:relative;">
+						<div class="text"><h4>Entity5:</h4>
+							{{field type="suggest" name="entity_suggest5" source=features allowCustomInput=false}}
+							<div>
+								{{field type="textarea" class="annotation" name="entity_text5" width="212px" rows=1 placeholder="Enter the text"}}
+							</div>
+						</div>
+						<div class="text"><h4>Attribute5:</h4>
+							<div>
+								<div class="color-red"></div>{{field type="radio" name="color5" value="RED" label="Red" hotkey="1"}}
+								<div class="color-orange"></div>{{field type="radio" name="color5" value="ORANGE" label="Orange" hotkey="1"}}
+								<div class="color-yellow"></div>{{field type="radio" name="color5" value="YELLOW" label="Yellow" hotkey="1"}}
+								<div class="color-green"></div>{{field type="radio" name="color5" value="GREEN" label="Green" hotkey="1"}}
+								<div class="color-blue"></div>{{field type="radio" name="color5" value="BLUE" label="Blue" hotkey="1"}}
+							</div>
+							<div>
+								<div class="color-purple"></div>{{field type="radio" name="color5" value="PURPLE" label="Purple" hotkey="1"}}
+								<div class="color-black"></div>{{field type="radio" name="color5" value="BLACK" label="Black" hotkey="1"}}
+								<div class="color-white"></div>{{field type="radio" name="color5" value="WHITE" label="White" hotkey="1"}}
+								<div class="color-gray"></div>{{field type="radio" name="color5" value="GRAY" label="Gray" hotkey="1"}}
+							</div>
+						</div>
+						<!-- Text input field -->
+						<div class="text">
+							<h4>More description:</h4>
+							{{field type="textarea" class="annotation" name="user_text5" width="100%" resize="vertical" rows=5 placeholder="Enter the text"}}
+						</div>
+					</div>
+					<div id="new" style="position:relative;">
+						<div class="text"><h4>Entity6:</h4>
+							{{field type="suggest" name="entity_suggest6" source=features allowCustomInput=false}}
+							<div>
+								{{field type="textarea" class="annotation" name="entity_text6" width="212px" rows=1 placeholder="Enter the text"}}
+							</div>
+						</div>
+						<div class="text"><h4>Attribute6:</h4>
+							<div>
+								<div class="color-red"></div>{{field type="radio" name="color6" value="RED" label="Red" hotkey="1"}}
+								<div class="color-orange"></div>{{field type="radio" name="color6" value="ORANGE" label="Orange" hotkey="1"}}
+								<div class="color-yellow"></div>{{field type="radio" name="color6" value="YELLOW" label="Yellow" hotkey="1"}}
+								<div class="color-green"></div>{{field type="radio" name="color6" value="GREEN" label="Green" hotkey="1"}}
+								<div class="color-blue"></div>{{field type="radio" name="color6" value="BLUE" label="Blue" hotkey="1"}}
+							</div>
+							<div>
+								<div class="color-purple"></div>{{field type="radio" name="color6" value="PURPLE" label="Purple" hotkey="1"}}
+								<div class="color-black"></div>{{field type="radio" name="color6" value="BLACK" label="Black" hotkey="1"}}
+								<div class="color-white"></div>{{field type="radio" name="color6" value="WHITE" label="White" hotkey="1"}}
+								<div class="color-gray"></div>{{field type="radio" name="color6" value="GRAY" label="Gray" hotkey="1"}}
+							</div>
+						</div>
+						<!-- Text input field -->
+						<div class="text">
+							<h4>More description:</h4>
+							{{field type="textarea" class="annotation" name="user_text6" width="100%" resize="vertical" rows=5 placeholder="Enter the text"}}
+						</div>
+					</div>
+					<div id="new" style="position:relative;">
+						<div class="text"><h4>Entity7:</h4>
+							{{field type="suggest" name="entity_suggest7" source=features allowCustomInput=false}}
+							<div>
+								{{field type="textarea" class="annotation" name="entity_text7" width="212px" rows=1 placeholder="Enter the text"}}
+							</div>
+						</div>
+						<div class="text"><h4>Attribute7:</h4>
+							<div>
+								<div class="color-red"></div>{{field type="radio" name="color7" value="RED" label="Red" hotkey="1"}}
+								<div class="color-orange"></div>{{field type="radio" name="color7" value="ORANGE" label="Orange" hotkey="1"}}
+								<div class="color-yellow"></div>{{field type="radio" name="color7" value="YELLOW" label="Yellow" hotkey="1"}}
+								<div class="color-green"></div>{{field type="radio" name="color7" value="GREEN" label="Green" hotkey="1"}}
+								<div class="color-blue"></div>{{field type="radio" name="color7" value="BLUE" label="Blue" hotkey="1"}}
+							</div>
+							<div>
+								<div class="color-purple"></div>{{field type="radio" name="color7" value="PURPLE" label="Purple" hotkey="1"}}
+								<div class="color-black"></div>{{field type="radio" name="color7" value="BLACK" label="Black" hotkey="1"}}
+								<div class="color-white"></div>{{field type="radio" name="color7" value="WHITE" label="White" hotkey="1"}}
+								<div class="color-gray"></div>{{field type="radio" name="color7" value="GRAY" label="Gray" hotkey="1"}}
+							</div>
+						</div>
+						<!-- Text input field -->
+						<div class="text">
+							<h4>More description:</h4>
+							{{field type="textarea" class="annotation" name="user_text7" width="100%" resize="vertical" rows=5 placeholder="Enter the text"}}
+						</div>
+					</div>
+					<div id="new" style="position:relative;">
+						<div class="text"><h4>Entity8:</h4>
+							{{field type="suggest" name="entity_suggest8" source=features allowCustomInput=false}}
+							<div>
+								{{field type="textarea" class="annotation" name="entity_text8" width="212px" rows=1 placeholder="Enter the text"}}
+							</div>
+						</div>
+						<div class="text"><h4>Attribute8:</h4>
+							<div>
+								<div class="color-red"></div>{{field type="radio" name="color8" value="RED" label="Red" hotkey="1"}}
+								<div class="color-orange"></div>{{field type="radio" name="color8" value="ORANGE" label="Orange" hotkey="1"}}
+								<div class="color-yellow"></div>{{field type="radio" name="color8" value="YELLOW" label="Yellow" hotkey="1"}}
+								<div class="color-green"></div>{{field type="radio" name="color8" value="GREEN" label="Green" hotkey="1"}}
+								<div class="color-blue"></div>{{field type="radio" name="color8" value="BLUE" label="Blue" hotkey="1"}}
+							</div>
+							<div>
+								<div class="color-purple"></div>{{field type="radio" name="color8" value="PURPLE" label="Purple" hotkey="1"}}
+								<div class="color-black"></div>{{field type="radio" name="color8" value="BLACK" label="Black" hotkey="1"}}
+								<div class="color-white"></div>{{field type="radio" name="color8" value="WHITE" label="White" hotkey="1"}}
+								<div class="color-gray"></div>{{field type="radio" name="color8" value="GRAY" label="Gray" hotkey="1"}}
+							</div>
+						</div>
+						<!-- Text input field -->
+						<div class="text">
+							<h4>More description:</h4>
+							{{field type="textarea" class="annotation" name="user_text8" width="100%" resize="vertical" rows=5 placeholder="Enter the text"}}
+						</div>
+					</div>
+
+			</div>
+		</td>
+	</tr>
+</table>
